@@ -1,0 +1,10 @@
+# 鍵・証明書は各自が make_cert.py で作る。絶対にコミットしない
+cert/*.key
+cert/*.crt
+cert/*.srl
+cert/rsa_login.json
+# 実行時のデータ(アカウント・会話履歴・アップロードされた画像)とログ
+data/
+logs/
+__pycache__/
+*.pyc
